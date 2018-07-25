@@ -23,7 +23,7 @@ function deepestChild(){
   var next = []
   if(Array.isArray(current)){
      for(let i =0;i<deep.length;i++){
-    deep[i].querySelectorAll("div")
+    next.push(querySelectorAll("div"))
 
   }
     
