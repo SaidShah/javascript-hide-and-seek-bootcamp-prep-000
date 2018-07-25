@@ -9,11 +9,6 @@ function nestedTarget(){
 
 function deepestChild(){
  const list = document.getElementById("#grand-node").querySelectorAll("div")
- for(let i =0;i<list.length;i++ ){
-   list[i].innerHTML = i+1.toString()
-   if(list[i]==="boo"){
-     return "boo"
-   }
- }
+
   return list.innerHTML
 }
