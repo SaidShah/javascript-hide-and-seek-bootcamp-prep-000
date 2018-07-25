@@ -24,6 +24,6 @@ for(let i = 0;i<start.length;i++){
   lastNode+=" > div "
 }
 
- return lastNode
+ return lastNode.innerHTML
 }
 
