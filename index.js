@@ -23,7 +23,7 @@ function deepestChild(){
   var next = []
   if(Array.isArray(current)){
      for(let i =0;i<current.length;i++){
-    next.push(current[i])
+    next.push(current[i].innerHTML)
 
   }
     
