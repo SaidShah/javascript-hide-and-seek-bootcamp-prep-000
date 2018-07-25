@@ -18,8 +18,8 @@ function increaseRankBy(givenNumber){
 
 function deepestChild(){
 //return document.querySelector("#grand-node div div div div")
-var lastNode = 
-var start = document.querySelector("div#grand-node")
+var lastNode = "div#grand-node"
+var start = document.querySelector()
 
  return lastNode
 }
