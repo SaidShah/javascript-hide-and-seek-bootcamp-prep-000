@@ -12,7 +12,7 @@ function increaseRankBy(givenNumber){
   var numbers = classes.querySelectorAll("li")
   for(let i =0;i<numbers.length;i++){
     var num = parseInt(numbers[i].innerHTML)
-    var newNum = num
+    num+=givenNumber
     numbers[i].innerHTML =  newNum.toString()
   }
 }
