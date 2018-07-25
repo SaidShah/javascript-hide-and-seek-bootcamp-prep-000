@@ -17,10 +17,10 @@ function increaseRankBy(givenNumber){
 }
 
 function deepestChild(){
-  var c = []
+
   var deep = document.getElementById("grand-node").querySelectorAll("div")
   for(let i =0;i<deep.length;i++){
-    c.push( deep[i].querySelectorAll("div"))
+    deep[i].querySelectorAll("div")
 
   }
 }
