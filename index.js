@@ -8,6 +8,6 @@ function nestedTarget(){
 }
 
 function increaseRankBy(givenNumber){
- var list = document.getElementById("main")
+ var list = document.getElementById("app").querySelectorAll("")
  
 }
