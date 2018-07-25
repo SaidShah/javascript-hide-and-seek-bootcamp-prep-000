@@ -17,7 +17,7 @@ function increaseRankBy(givenNumber){
 }
 
 function deepestChild(){
-return document.querySelector("div#gra")
+return document.querySelector("div#grand-node div div div")
 
 }
 
