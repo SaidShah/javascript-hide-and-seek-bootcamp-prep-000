@@ -28,6 +28,6 @@ function deepestChild(){
   }
     
   }
- 
+ current = next.shift
 }
 
