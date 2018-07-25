@@ -19,8 +19,6 @@ function increaseRankBy(givenNumber){
 function deepestChild(){
 //return document.querySelector("#grand-node div div div div")
 var lastNode = document.querySelector("div#grand-node").
-while(lastNode.length){
-  lastNode=lastNode.children()
-}
+return lastNode
 }
 
