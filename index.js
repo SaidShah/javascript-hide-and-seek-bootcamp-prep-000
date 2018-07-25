@@ -4,5 +4,5 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  return document.getElementById("app").querySelector("ul.")
+  return document.getElementById("nested").querySelector("ul.target ")
 }
