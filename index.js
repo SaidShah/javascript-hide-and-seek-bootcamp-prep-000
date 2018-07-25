@@ -8,5 +8,8 @@ function nestedTarget(){
 }
 
 function increaseRankBy(givenNumber){
-  var classes = document.querySelector("")
+  var classes = document.querySelector("ul.ranked-list")
+  var numbers = classes.querySelectorAll("li")
+  
+  
 }
