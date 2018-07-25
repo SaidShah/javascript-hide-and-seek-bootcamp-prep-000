@@ -21,7 +21,10 @@ function deepestChild(){
   var deep = document.getElementById("grand-node").querySelectorAll("div")
   var current = deep
   var next = []
-  
+  if(Array.isArray(current)){
+    
+    
+  }
   for(let i =0;i<deep.length;i++){
     deep[i].querySelectorAll("div")
 
