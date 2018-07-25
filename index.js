@@ -20,7 +20,7 @@ function deepestChild(){
 //return document.querySelector("#grand-node div div div div")
 var lastNode = "#grand-node"
 var start = document.querySelector("div#grand-node").querySelectorAll("div")
-for(let i = 0;i<start.length-1;i++){
+for(let i = 0;i<start.length;i++){
   lastNode+=" div"
 }
 
