@@ -18,16 +18,6 @@ function increaseRankBy(givenNumber){
 
 function deepestChild(){
 
-  var deep = document.getElementById("grand-node").querySelectorAll("div")
-  var current = deep
-  var next = []
-  if(Array.isArray(current)){
-     for(let i =0;i<current.length;i++){
-    next.push(current[i].innerHTML)
 
-  }
-    
-  }
- current = next.shift
 }
 
