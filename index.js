@@ -8,5 +8,5 @@ function nestedTarget(){
 }
 
 function deepestChild(){
-  return document.getElementById("grand-node").querySelector("div").innerHTML[2]
+  return document.getElementById("grand-node").querySelector("div").innerHTML[5]
 }
