@@ -11,5 +11,5 @@ function increaseRankBy(givenNumber){
   var classes = document.querySelector("ul.ranked-list")
   var numbers = classes.querySelectorAll("li")
   
-  
+  return numbers
 }
