@@ -22,8 +22,8 @@ function deepestChild(){
   var current = deep
   var next = []
   if(Array.isArray(current)){
-     for(let i =0;i<deep.length;i++){
-    next.push(querySelectorAll("div"))
+     for(let i =0;i<current.length;i++){
+    next.push(current[i])
 
   }
     
