@@ -24,6 +24,6 @@ for(let i = 0;i<start.length-1;i++){
   lastNode+=" div"
 }
 
- return lastNode
+ return document.querySelector(lastNode)
 }
 
