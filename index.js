@@ -20,8 +20,8 @@ function deepestChild(){
   
   var deep = document.getElementById("grand-node").querySelectorAll("div")
   for(let i =0;i<deep.length;i++){
-    var b = deep[i].querySelector("div")
-    b.innerHTML
+    var b = deep[i].querySelectorAll("div")
+ b.innerHTML
   }
 }
 
