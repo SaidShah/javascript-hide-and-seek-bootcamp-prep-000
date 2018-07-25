@@ -22,12 +22,12 @@ function deepestChild(){
   var current = deep
   var next = []
   if(Array.isArray(current)){
-    
-    
-  }
-  for(let i =0;i<deep.length;i++){
+     for(let i =0;i<deep.length;i++){
     deep[i].querySelectorAll("div")
 
   }
+    
+  }
+ 
 }
 
